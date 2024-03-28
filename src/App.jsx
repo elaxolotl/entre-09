@@ -6,6 +6,7 @@ import About from './About';
 import './App.css'
 import Contact from './Contact';
 import Clients from './Clients';
+import Footer from './Footer';
 
 
 function HeroAbout(){
@@ -24,6 +25,7 @@ function App() {
       <HeroAbout/>
       <Contact/>
       <Clients />
+      <Footer />
     </>
 
   )
