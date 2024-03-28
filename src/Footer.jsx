@@ -56,7 +56,7 @@ function Bottom() {
             <hr></hr>
             <div className="bottom">
                 <div>
-                    <p>© 2024  entre09. All rights reserved</p>
+                    <p>&copy;  2024  entre09. All rights reserved</p>
                 </div>
                 <div className="icons">
                     <SiGmail/><FaFacebook style={{marginLeft:"2vh"}}/>

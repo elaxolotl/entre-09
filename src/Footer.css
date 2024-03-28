@@ -46,7 +46,7 @@ footer{
     justify-content: flex-start;
     gap: 30vh;
     img{
-        width: 20vh;
+        width: 15vh;
         height: auto;
     }
     a{
@@ -60,7 +60,10 @@ footer{
 
 .bottom{
     display: flex;
-    justify-content: space-between; 
+    justify-content:center;
+    align-items: center;
+    gap: 140vh; 
+    padding-bottom: 2vh;
     .icons{
         font-size: 30px;
     }
