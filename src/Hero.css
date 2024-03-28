@@ -23,7 +23,7 @@
 
     #hero-card{
         background-color: white;
-        margin: 0vh 70vh;
+        margin: 0vh 50vh;
         border-radius: 20px;
         h2{
             color: #454545;
@@ -40,7 +40,7 @@
                 border-radius: 10px;
                 margin: 2vh;
                 padding: 10px;
-                width: 500px;
+                width: 750px;
                 font-family: "Inter", sans-serif;
                 font-weight: 600;
                 span{

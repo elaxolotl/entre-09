@@ -1,5 +1,5 @@
 import React from "react";
-import { FaChalkboardTeacher } from "react-icons/fa";
+import { FaChalkboardTeacher, FaUserTie  } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 import { MdEventNote } from "react-icons/md";
 import './Hero.css'
@@ -28,6 +28,10 @@ export default function Hero() {
                     <div>
                         <span><MdEventNote /><IoIosArrowForward /></span>
                         <p>I'm looking for assistance</p>
+                    </div>
+                    <div>
+                        <span><FaUserTie /><IoIosArrowForward /></span>
+                        <p>I'm looking for a consultant</p>
                     </div>
                 </div>
             </div>

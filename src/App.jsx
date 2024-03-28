@@ -7,6 +7,7 @@ import './App.css'
 import Contact from './Contact';
 import Clients from './Clients';
 import Footer from './Footer';
+import Services from './Services';
 
 
 function HeroAbout(){
@@ -14,6 +15,7 @@ function HeroAbout(){
     <div id='hero-about'>
       <Hero/>
       <About/>
+      <Services/>
     </div>
   )
 }
