@@ -6,7 +6,7 @@ export default function NavBar() {
 
     //adds dropdown on hover//
 
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
     const showDropdown = (e) => {
         setShow(!show);
     }
@@ -44,7 +44,7 @@ export default function NavBar() {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto" style={{  marginLeft: '35vh', gap:'5vh', alignItems:"center" }}>
+                    <Nav className="me-auto" style={{  marginLeft: '35vh', gap:'5vh', alignItems:"center", padding:'0' }}>
                         <NavDropdown
                             class="nav-links"
                             title={
@@ -62,10 +62,10 @@ export default function NavBar() {
                                 Assistance
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link class="nav-links" >Accompaniment</Nav.Link>
-                        <Nav.Link class="nav-links" >Prices</Nav.Link>
-                        <Nav.Link class="nav-links" >Contact</Nav.Link>
-                        <Nav.Link class="nav-links" style={{ marginLeft:'30vh' }}>Eng</Nav.Link>
+                        <Nav.Link class="nav-links" ><span class="nav-links">Accompaniment</span></Nav.Link>
+                        <Nav.Link class="nav-links" ><span class="nav-links">Prices</span></Nav.Link>
+                        <Nav.Link class="nav-links" ><span class="nav-links">Contact</span></Nav.Link>
+                        <Nav.Link style={{ marginLeft:'30vh' }}><span class="nav-links">Eng</span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
