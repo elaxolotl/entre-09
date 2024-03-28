@@ -1,48 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-nav {
-    background-color: white;
+nav{
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    ul {
-        li {
-            color: #BA9B37;
-            display: inline-block;
-            margin-right: 10vh;
-            cursor: pointer;
-            font-size: 17px;
-            .drop-down{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
-            .drop-down:hover .dropdown_menu li{
-                display: block;
-            }
-            .dropdown_menu{
-                display: none;
-                position: absolute;
-                top: 100%;
-                left: 0;
-                width: 100%;
-                perspective: 1000px;
-                z-index: -1;
-                li{
-                    display: none;
-                    opacity: 0;
-                }
-            }
-            img{
-                width: 3.5vh;
-                height: auto;
-                margin-bottom: -1vh;
-                margin-right: 70vh;
-            }
-        }
-        li:hover{
-            color: #a89042;
-        }
-    }
+}
+
+.nav-links{
+    color: #BA9B37;
+}
+.nav-links:hover{
+    color: #9b8230;
 }

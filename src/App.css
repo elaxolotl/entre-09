@@ -1,4 +1,8 @@
 #hero-about{
     background-image: url("/hero-background.png");
     background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-top: -10vh;
+    padding-top: 10vh;
 }
