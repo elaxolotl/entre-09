@@ -14,12 +14,12 @@ export default function Hero() {
                     animate
                     animateDuration={1000}>
                     your
-                </FancyText> way</h1>
+                </FancyText> way.</h1>
             <p className="hero-description">Tailor-made solutions for the growth and success
                 of your business established in Tunisia or the Eurozone
             </p>
             <div id="hero-card">
-                <h2>How can I help</h2>
+                <h2>How can I help?</h2>
                 <div className="card-subset">
                     <div>
                         <span><FaChalkboardTeacher /><IoIosArrowForward /></span>

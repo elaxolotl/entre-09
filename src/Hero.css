@@ -5,7 +5,7 @@
     padding-top: 5vh;
     text-align: center;
     font-family: "Inria Serif", serif;
-
+    margin-bottom: 10vh;
     h1 {
         margin-top: 10vh;
         color: #454545;
@@ -16,7 +16,7 @@
     .hero-description{
         color: #454545;
         font-weight: 700;
-        font-size: 2.5vh;
+        font-size: 2.3vh;
         opacity: 0.7;
         margin: 2vh 70vh;
     }
@@ -28,7 +28,7 @@
         h2{
             color: #454545;
             font-weight: 700;
-            font-size: 5vh;
+            font-size: 5.5vh;
             padding: 2vh;
         }
         .card-subset{
@@ -47,10 +47,11 @@
                     color: #BA9B37;
                     display: flex;
                     justify-content: space-around;
-                    font-size: 3vh;
+                    font-size: 3.5vh;
                     margin-bottom: 2vh;
                 }
                 p{
+                    font-size: 1.75vh;
                     color: #454545;
                     opacity: 0.7;
                 }
