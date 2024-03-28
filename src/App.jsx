@@ -5,6 +5,8 @@ import Hero from './Hero';
 import About from './About';
 import './App.css'
 import Contact from './Contact';
+import Clients from './Clients';
+
 
 function HeroAbout(){
   return(
@@ -21,7 +23,9 @@ function App() {
       <NavBar />
       <HeroAbout/>
       <Contact/>
+      <Clients />
     </>
+
   )
 }
 

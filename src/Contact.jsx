@@ -12,19 +12,19 @@ export default function Contact() {
                     <h1>Contact us! </h1>
 
                     <MDBValidationItem invalid feedback='Please provide your name.'>
-                        <MDBInput label='Name' v-model='name' wrapperClass='mb-4' required />
+                        <MDBInput label='Name' v-model='name' wrapperClass='mb-4' style={{backgroundColor: 'white'}} required />
                     </MDBValidationItem>
 
                     <MDBValidationItem invalid feedback='Please provide your email.'>
-                        <MDBInput type='email' label='Email address' v-model='email' wrapperClass='mb-4' required />
+                        <MDBInput type='email' label='Email address' v-model='email' wrapperClass='mb-4' required  style={{backgroundColor: 'white'}} />
                     </MDBValidationItem>
 
                     <MDBValidationItem invalid feedback='Please provide mail subject.'>
-                        <MDBInput label='Subject' v-model='subject' wrapperClass='mb-4' required />
+                        <MDBInput label='Subject' v-model='subject' wrapperClass='mb-4' required  style={{backgroundColor: 'white'}}/>
                     </MDBValidationItem>
 
                     <MDBValidationItem invalid feedback='Please provide a message text.'>
-                        <MDBTextArea wrapperClass='mb-4' label='Message' required />
+                        <MDBTextArea wrapperClass='mb-4' label='Message' required  style={{backgroundColor: 'white'}}/>
                     </MDBValidationItem>
 
                     <MDBValidationItem feedback=''>
