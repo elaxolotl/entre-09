@@ -61,7 +61,7 @@ export default function NavBar() {
                                 <Link to="/training"> Formations</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
-                                Assistance
+                            <Link to="/assistance">Assistance</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
                                 Consulting

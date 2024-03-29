@@ -8,6 +8,7 @@ import Clients from './Clients';
 import Footer from './Footer';
 import Services from './Services';
 import Trainings from './Trainings';
+import Assistance from './Assistance'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -38,6 +39,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<HomePage/>}/>
         <Route exact path="/training" element={<Trainings/>}/>
+        <Route exact path="/assistance" element={<Assistance/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

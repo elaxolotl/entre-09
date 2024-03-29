@@ -18,13 +18,13 @@
         font-weight: 600;
         opacity: 0.7;
         margin-bottom: 5vh;
-
     }
     .services-list {
         font-family: "Inter", sans-serif;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 5vh;
         text-align: left;
     
         .service-card {
