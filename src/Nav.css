@@ -10,3 +10,6 @@ nav{
 .nav-links:hover{
     color: #9b8230;
 }
+a:visited{
+    color: #9b8230;
+}
