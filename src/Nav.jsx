@@ -39,12 +39,12 @@ export default function NavBar() {
             className={scrolled ? 'bg-transparent shadow-none' : 'bg-white shadow'}
         >
             <Container>
-                <Navbar.Brand>
+                <Navbar.Brand href="#hero">
                     <img src="/logo.svg" width="40" height="40" alt="entre09" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto" style={{  marginLeft: '35vh', gap:'5vh', alignItems:"center", padding:'0' }}>
+                    <Nav className="me-auto" style={{  marginLeft: '45vh', gap:'5vh', alignItems:"center", padding:'0' }}>
                         <NavDropdown
                             class="nav-links"
                             title={
@@ -61,10 +61,12 @@ export default function NavBar() {
                             <NavDropdown.Item href="#action/3.2">
                                 Assistance
                             </NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2">
+                                Consulting
+                            </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link class="nav-links" ><span class="nav-links">Accompaniment</span></Nav.Link>
                         <Nav.Link class="nav-links" ><span class="nav-links">Prices</span></Nav.Link>
-                        <Nav.Link class="nav-links" ><span class="nav-links">Contact</span></Nav.Link>
+                        <Nav.Link class="nav-links" href="#contact" ><span class="nav-links">Contact</span></Nav.Link>
                         <Nav.Link style={{ marginLeft:'30vh' }}><span class="nav-links">Eng</span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
