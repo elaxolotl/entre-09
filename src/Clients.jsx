@@ -7,7 +7,7 @@ export default function Clients() {
             <div className="header">
                 <div class="hr-line"></div> 
                 <h1>Clients</h1>
-                <div class="hr-line"></div>
+                <div className="hr-line"></div>
             </div>
             <div className="client-list">
                 <img src="https://humanrightsconnected.org/wp-content/uploads/2019/03/org_logo_internationalfederationforhumanrightsfidh.jpg" alt="FIDH" />

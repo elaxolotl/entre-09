@@ -1,0 +1,71 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+#tarif{
+    background-image: url("/hero-background.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-top: -10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    h1{
+        text-align: center;
+        font-family: "Inria Serif", serif;
+        color: #454545;
+        font-weight: 700;
+        font-size: 7vh;
+        margin-top: 5vh;
+        margin-bottom: -7vh;
+    }
+    .tabs{
+        margin: 10vh 40vh;
+        border-radius: 20px;
+    }
+
+    h3.price{
+        text-align: center;
+        font-family: "Inria Serif", serif;
+        color: #454545;
+        font-weight: 700;
+        font-size: 7vh;
+    }
+    
+    p.price-description{
+        text-align: center;
+        color: #454545; 
+        font-family: "Inter", sans-serif;
+        font-weight: 600;
+    }
+}
+
+.nav-pills .nav-link{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+    color: #454545; 
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    background-color: transparent;
+    opacity: 0.7;
+    text-transform: none;
+    font-size: 14px;
+}
+
+.nav-pills .nav-link:focus{
+    background-color: #F0EEE8;
+    border: solid 2px #D4AF37;
+    opacity: 1;
+    color: #454545; 
+}
+
+.tab-element{
+    margin: 10vh 41vh;
+    background-color: white !important;
+    border: solid 2px #D4AF37;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5vh;
+    margin-top: -105px;
+}

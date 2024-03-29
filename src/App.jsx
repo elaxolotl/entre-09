@@ -10,6 +10,7 @@ import Services from './Services';
 import Trainings from './Trainings';
 import Assistance from './Assistance';
 import Consulting from './Consulting';
+import Tarifs from './Tarifs';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -24,7 +25,7 @@ function HeroAbout() {
 }
 
 function HomePage() {
-  return (
+  return (  
     <>
       <HeroAbout />
       <Contact />
@@ -42,6 +43,7 @@ function App() {
         <Route exact path="/training" element={<Trainings/>}/>
         <Route exact path="/assistance" element={<Assistance/>}/>
         <Route exact path="/consulting" element={<Consulting/>}/>
+        <Route exact path="/tarifs" element={<Tarifs/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>
