@@ -8,7 +8,8 @@ import Clients from './Clients';
 import Footer from './Footer';
 import Services from './Services';
 import Trainings from './Trainings';
-import Assistance from './Assistance'
+import Assistance from './Assistance';
+import Consulting from './Consulting';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
@@ -40,6 +41,7 @@ function App() {
         <Route exact path="/" element={<HomePage/>}/>
         <Route exact path="/training" element={<Trainings/>}/>
         <Route exact path="/assistance" element={<Assistance/>}/>
+        <Route exact path="/consulting" element={<Consulting/>}/>
       </Routes>
       <Footer />
     </BrowserRouter>

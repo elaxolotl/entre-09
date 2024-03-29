@@ -64,7 +64,7 @@ export default function NavBar() {
                             <Link to="/assistance">Assistance</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">
-                                Consulting
+                            <Link to="/consulting">Consulting</Link>
                             </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link class="nav-links" ><span class="nav-links">Tarifs</span></Nav.Link>
