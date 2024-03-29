@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from 'react';
 import { FaChalkboardTeacher, FaUserTie  } from "react-icons/fa";
 import { IoIosArrowForward } from "react-icons/io";
 import { MdEventNote } from "react-icons/md";
@@ -7,8 +7,15 @@ import FancyText from '@carefully-coded/react-text-gradient';
 
 
 export default function Hero() {
+    const heroRef = useRef(null);
+
+    useEffect(() => {
+        if (heroRef.current) {
+            heroRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    }, []);
     return (
-        <div id="hero" style={{ marginTop: "50px" }}>
+        <div id="hero" style={{ marginTop: "50px" }} ref={heroRef}>
             <h1> À <FancyText
                     gradient={{ from: '#D4AF37', to: '#C25942', type: 'linear' }}
                     animate
