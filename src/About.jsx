@@ -11,11 +11,10 @@ function About1() {
                 <GoGoal />
             </div>
             <div className="text">
-                <h4>My goals</h4>
+                <h4>Mes objectifs</h4>
                 <p>
-                    entre09 is committed to providing high quality services, providing exceptional support to our customers and ensuring their long-term success
-                </p>
-                <p id="link">see more about us<IoIosArrowForward /></p>
+                entre09 s'engage à fournir des services de haute qualité, à apporter un accompagnement exceptionnel à nos clients et à assurer leur succès à long terme.</p>
+                <p id="link">en savoir plus sur nous<IoIosArrowForward /></p>
             </div>
         </div>
     )
@@ -28,11 +27,11 @@ function About2() {
                 <IoMdSchool />
             </div>
             <div className="text">
-                <h4>My background</h4>
-                <p> I have a rich experience in finance, accounting and logistics and I am dedicated to delivering top-tier support to ensure the long-term success of my clients.
+                <h4>Mon parcours</h4>
+                <p> Je possède une riche expérience en finance, comptabilité et logistique et je m'engage à fournir un accompagnement de haut niveau pour assurer le succès à long terme de mes clients.
                 </p>
-                <p id="link">see my resume<IoIosArrowForward /></p>
-            </div>
+                <p id="link">voir mon CV<IoIosArrowForward /></p>
+            </div>  
         </div>
     )
 }
@@ -40,8 +39,8 @@ function About2() {
 export default function About() {
     return (
         <div id="about">
-            <h1>Who am I</h1>
-            <p>entre09 is your trusted partner for the development and growth of your business
+            <h1>Qui suis je?</h1>
+            <p>entre09 est votre partenaire de confiance pour le développement et la croissance de votre entreprise
             </p>
             <div className="about-me">
                 <div className="about-me-text">

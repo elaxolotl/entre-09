@@ -48,7 +48,7 @@ export default function NavBar() {
                         <NavDropdown
                             class="nav-links"
                             title={
-                                <span className="nav-links">our jobs</span>
+                                <span className="nav-links">Nos métiers</span>
                             }
                             id="basic-nav-dropdown"
                             show={show}
@@ -65,9 +65,8 @@ export default function NavBar() {
                                 Consulting
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link class="nav-links" ><span class="nav-links">Prices</span></Nav.Link>
+                        <Nav.Link class="nav-links" ><span class="nav-links">Tarifs</span></Nav.Link>
                         <Nav.Link class="nav-links" href="#contact" ><span class="nav-links">Contact</span></Nav.Link>
-                        <Nav.Link style={{ marginLeft:'30vh' }}><span class="nav-links">Eng</span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

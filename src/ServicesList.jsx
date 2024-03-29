@@ -1,5 +1,5 @@
 const ServicesList = [
-    "trainings","consulting", "assistance"
+    "formations","consulting", "assistance"
 ]
 
 export default ServicesList

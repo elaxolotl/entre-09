@@ -9,18 +9,17 @@ export default function Contact() {
         <div id="contact">
             <div className="email-section">
                 <MDBValidation noValidate id='form' className='text-center' style={{ width: '100%', maxWidth: '300px'}}>
-                    <h1>Contact us! </h1>
-
+                    <h1>Contactez-nous! </h1>
                     <MDBValidationItem invalid feedback='Please provide your name.'>
-                        <MDBInput label='Name' v-model='name' wrapperClass='mb-4' style={{backgroundColor: 'white'}} required />
+                        <MDBInput label='Nom' v-model='name' wrapperClass='mb-4' style={{backgroundColor: 'white'}} required />
                     </MDBValidationItem>
 
                     <MDBValidationItem invalid feedback='Please provide your email.'>
-                        <MDBInput type='email' label='Email address' v-model='email' wrapperClass='mb-4' required  style={{backgroundColor: 'white'}} />
+                        <MDBInput type='email' label='Addresse email' v-model='email' wrapperClass='mb-4' required  style={{backgroundColor: 'white'}} />
                     </MDBValidationItem>
 
                     <MDBValidationItem invalid feedback='Please provide mail subject.'>
-                        <MDBInput label='Subject' v-model='subject' wrapperClass='mb-4' required  style={{backgroundColor: 'white'}}/>
+                        <MDBInput label='Sujet' v-model='subject' wrapperClass='mb-4' required  style={{backgroundColor: 'white'}}/>
                     </MDBValidationItem>
 
                     <MDBValidationItem invalid feedback='Please provide a message text.'>
@@ -28,11 +27,11 @@ export default function Contact() {
                     </MDBValidationItem>
 
                     <MDBValidationItem feedback=''>
-                        <MDBCheckbox wrapperClass='d-flex justify-content-center' label='Send me copy' />
+                        <MDBCheckbox wrapperClass='d-flex justify-content-center' label='Envoyez-moi une copie' />
                     </MDBValidationItem>
 
                     <MDBBtn type='submit' color='white' block className='my-4'>
-                        Send
+                            Envoyez
                     </MDBBtn>
                 </MDBValidation>
             </div>

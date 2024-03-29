@@ -4,30 +4,30 @@ import { FaCalculator, FaTruck, FaBalanceScale, FaMoneyBill } from 'react-icons/
 
 const ServicesList = [
   {
-    name: "Accounting",
-    description: "Handle financial records, including the preparation of financial statements.",
+    name: "Comptabilité",
+    description: "Gérer les dossiers financiers, y compris la préparation des états financiers.",
     icon: <FaCalculator />
   },
   {
-    name: "Logistics",
-    description: "Manage the transportation and storage of goods, ensuring efficient supply chain operations.",
+    name: "Logistique",
+    description: "Solutions efficaces pour optimiser vos opérations administratives et relations avec l'administration tunisienne.",
     icon: <FaTruck />
   },
   {
-    name: "Jurdical",
-    description: "Provide legal support and advice on various matters related to business operations and compliance.",
+    name: "Juridique",
+    description: "Fournir un soutien juridique et des conseils sur divers aspects des opérations commerciales et de la conformité.",
     icon: <FaBalanceScale />
   },
   {
-    name: "Financial",
-    description: "Offer financial advisory services and assistance in managing investments and assets.",
+    name: "Financier",
+    description: "Offrir des services de conseil financier et une assistance dans la gestion des investissements et des actifs.",
     icon: <FaMoneyBill />
   }
 ];
 export default function Services(){
     return(
         <div id="services">
-            <h2>Our services</h2>
+            <h2>Nos services</h2>
             <div className="services-list">
             {ServicesList.map(function(item){
                 return(
