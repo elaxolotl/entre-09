@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import NavBar from './Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Hero from './Hero';
@@ -8,28 +7,40 @@ import Contact from './Contact';
 import Clients from './Clients';
 import Footer from './Footer';
 import Services from './Services';
+import Trainings from './Trainings';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
-function HeroAbout(){
-  return(
+function HeroAbout() {
+  return (
     <div id='hero-about'>
-      <Hero/>
-      <About/>
-      <Services/>
+      <Hero />
+      <About />
+      <Services />
     </div>
+  )
+}
+
+function HomePage() {
+  return (
+    <>
+      <HeroAbout />
+      <Contact />
+      <Clients />
+    </>
   )
 }
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <NavBar />
-      <HeroAbout/>
-      <Contact/>
-      <Clients />
+      <Routes>
+        <Route exact path="/" element={<HomePage/>}/>
+        <Route exact path="/training" element={<Trainings/>}/>
+      </Routes>
       <Footer />
-    </>
-
+    </BrowserRouter>
   )
 }
 
