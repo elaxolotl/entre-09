@@ -11,6 +11,7 @@ export default function Tarifs() {
                 defaultActiveKey="s&at"
                 className="tabs"
                 variant="pills"
+                fill
             >
                 <Tab eventKey="s&at" title="Société & Associations Tunisienne" className="tab-element">
                     <h3 className="price">250 TND</h3>
