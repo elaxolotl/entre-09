@@ -62,6 +62,17 @@ function ConsultingPage() {
   )
 }
 
+function TarifsPage() {
+  return (
+    <>
+      <Tarifs />
+      <Contact />
+      <hr style={{color:'white', width:'50px'}}/>
+      <Footer/>
+    </>
+  )
+}
+
 function App() {
   return (
     <BrowserRouter>
@@ -71,7 +82,7 @@ function App() {
         <Route exact path="/training" element={<TrainingPage />} />
         <Route exact path="/assistance" element={<AssistancePage />} />
         <Route exact path="/consulting" element={<ConsultingPage />} />
-        <Route exact path="/tarifs" element={<Tarifs />} />
+        <Route exact path="/tarifs" element={<TarifsPage />} />
       </Routes>
     </BrowserRouter>
   )
