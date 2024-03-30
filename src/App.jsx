@@ -25,11 +25,39 @@ function HeroAbout() {
 }
 
 function HomePage() {
-  return (  
+  return (
     <>
       <HeroAbout />
       <Contact />
       <Clients />
+      <Footer />
+    </>
+  )
+}
+
+function TrainingPage() {
+  return (
+    <>
+      <Trainings />
+      <Contact />
+    </>
+  )
+}
+
+function AssistancePage() {
+  return (
+    <>
+      <Assistance />
+      <Contact />
+    </>
+  )
+}
+
+function ConsultingPage() {
+  return (
+    <>
+      <Consulting />
+      <Contact />
     </>
   )
 }
@@ -39,13 +67,12 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route exact path="/" element={<HomePage/>}/>
-        <Route exact path="/training" element={<Trainings/>}/>
-        <Route exact path="/assistance" element={<Assistance/>}/>
-        <Route exact path="/consulting" element={<Consulting/>}/>
-        <Route exact path="/tarifs" element={<Tarifs/>}/>
+        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/training" element={<TrainingPage />} />
+        <Route exact path="/assistance" element={<AssistancePage />} />
+        <Route exact path="/consulting" element={<ConsultingPage />} />
+        <Route exact path="/tarifs" element={<Tarifs />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   )
 }

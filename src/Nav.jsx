@@ -68,7 +68,7 @@ export default function NavBar() {
                             </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link class="nav-links" ><span class="nav-links"><Link to="/tarifs">Tarifs</Link></span></Nav.Link>
-                        <Nav.Link class="nav-links" href="#contact" ><span class="nav-links">Contact</span></Nav.Link>
+                        <Nav.Link class="nav-links" href="#contact" ><Link to="/"><span class="nav-links">Contact</span></Link></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
