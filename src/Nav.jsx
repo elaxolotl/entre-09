@@ -58,13 +58,13 @@ export default function NavBar() {
                             onMouseLeave={hideDropdown}
                         >
                             <NavDropdown.Item >
-                                <Link to="/training"> Formations</Link>
+                                <Link to="/training"><div>Formations</div> </Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to="/assistance">Assistance</Link>
+                                <Link to="/assistance"><div>Assistance</div></Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item>
-                                <Link to="/consulting">Consulting</Link>
+                                <Link to="/consulting"><div>Consulting</div></Link>
                             </NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link class="nav-links" ><span class="nav-links"><Link to="/tarifs">Tarifs</Link></span></Nav.Link>
