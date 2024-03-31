@@ -60,5 +60,9 @@
             cursor: pointer;
             color: #141414;
         }
+        #link:visited{
+            color: #454545;
+        }
     }
 }
+

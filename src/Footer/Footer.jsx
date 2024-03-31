@@ -1,6 +1,6 @@
 import React from "react";
 import './Footer.css'
-import ServicesList from "./ServicesList";
+import ServicesList from "../ServicesList";
 import { FaFacebook } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
@@ -53,7 +53,7 @@ function Bottom() {
             <hr></hr>
             <div className="bottom">
                 <div>
-                    <p>© 2024 entre09. Tous droits réservés</p>
+                    <p>© 2024 entre09 | All Rights Reserved.</p>
                 </div>
                 <div className="icons">
                     <SiGmail /><FaFacebook style={{ marginLeft: "2vh" }} />

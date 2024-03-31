@@ -1,5 +1,5 @@
 import React from "react";
-import './Trainings.css';
+import '../TrainingsPage/Trainings.css';
 import { FaCalculator, FaTruck, FaBalanceScale, FaMoneyBill } from 'react-icons/fa';
 
 

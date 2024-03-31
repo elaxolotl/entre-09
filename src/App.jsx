@@ -1,18 +1,18 @@
-import NavBar from './Nav'
+import NavBar from './Nav/Nav'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Hero from './Hero';
-import About from './About';
+import Hero from './HomePage/Hero';
+import About from './HomePage/About';
 import './App.css'
-import Contact from './Contact';
-import Clients from './Clients';
-import Footer from './Footer';
-import Services from './Services';
-import Trainings from './Trainings';
-import Assistance from './Assistance';
-import Consulting from './Consulting';
-import Tarifs from './Tarifs';
+import Contact from './HomePage/Contact';
+import Clients from './HomePage/Clients';
+import Footer from './Footer/Footer';
+import Services from './HomePage/Services';
+import Trainings from './TrainingsPage/Trainings';
+import Assistance from './AssistancePage/Assistance';
+import Consulting from './ConsultingPage/Consulting';
+import Tarifs from './TarifsPage/Tarifs';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
+import AboutUs from './AboutPage/AboutUs';
 
 function HeroAbout() {
   return (
@@ -67,15 +67,26 @@ function TarifsPage() {
     <>
       <Tarifs />
       <Contact />
-      <hr style={{color:'white', width:'50px'}}/>
-      <Footer/>
+      <hr style={{ color: 'white', width: '50px' }} />
+      <Footer />
     </>
   )
 }
 
+function AboutPage() {
+  return (
+    <>
+      <AboutUs />
+      <Contact />
+      <hr style={{ color: 'white', width: '50px' }} />
+      <Footer />
+    </>
+  )
+} 
+
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <NavBar />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
@@ -83,6 +94,7 @@ function App() {
         <Route exact path="/assistance" element={<AssistancePage />} />
         <Route exact path="/consulting" element={<ConsultingPage />} />
         <Route exact path="/tarifs" element={<TarifsPage />} />
+        <Route exact path="/about" element={<AboutPage />} />
       </Routes>
     </BrowserRouter>
   )

@@ -1,0 +1,75 @@
+#about-page{
+    background-image: url("/hero-background.png");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-top: -10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    .header{
+        h1{
+            text-align: center;
+            font-family: "Inria Serif", serif;
+            color: #454545;
+            font-weight: 700;
+            font-size: 7vh;
+            margin-top: 5vh;
+        }
+        p{
+            margin: 0vh 40vh;
+            text-align: center;
+            color: #454545; 
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            padding-bottom: 1vh;
+        }
+    }
+    .accordion{
+        h2{
+            text-align: center;
+            font-family: "Inria Serif", serif;
+            color: #454545;
+            font-weight: 700;
+            font-size: 3vh;
+        }
+    }
+
+    #quote{
+        margin-top: 5vh;
+        background-color: white;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0vh 30vh;
+        height: 35vh;
+        gap: 5vh;
+        .icon{
+            font-size: 50px;
+            opacity: 0.7;
+            margin-top: -2.5vh;
+        }
+        p{
+            color: #454545; 
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            text-align: right;
+            opacity: 0.7;
+        }
+        img{
+            width: 23vh;
+            height: auto;
+            margin-top: -7vh;
+        }
+        h3{
+            text-align: center;
+            font-family: "Inria Serif", serif;
+            color: #454545;
+            font-weight: 700;
+            font-size: 2.5vh; 
+            margin-top: 2vh;
+        }
+    }
+}

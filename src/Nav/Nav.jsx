@@ -3,7 +3,6 @@ import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import './Nav.css'
 import { Link } from 'react-router-dom';
 
-
 export default function NavBar() {
 
     //adds dropdown on hover//
@@ -34,6 +33,7 @@ export default function NavBar() {
             document.removeEventListener('scroll', handleScroll);
         };
     }, [scrolled]);
+
     return (
         <Navbar
             expand="lg"
@@ -46,11 +46,11 @@ export default function NavBar() {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto" style={{ marginLeft: '45vh', gap: '5vh', alignItems: "center", padding: '0' }}>
+                    <Nav className="me-auto" style={{ marginLeft: '37vh', gap: '5vh', alignItems: "center", padding: '0' }}>
                         <NavDropdown
                             class="nav-links"
                             title={
-                                <span className="nav-links">Nos métiers</span>
+                                <span className="nav-links" style={{color:'#BA9B37'}}>Nos métiers</span>
                             }
                             id="basic-nav-dropdown"
                             show={show}
@@ -67,8 +67,9 @@ export default function NavBar() {
                                 <Link to="/consulting"><div>Consulting</div></Link>
                             </NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link class="nav-links" ><span class="nav-links"><Link to="/tarifs">Tarifs</Link></span></Nav.Link>
-                        <Nav.Link class="nav-links" href="#contact" ><Link to="/"><span class="nav-links">Contact</span></Link></Nav.Link>
+                        <Nav.Link class="nav-links" ><span class="nav-links"><Link to="/tarifs"  style={{color:'#BA9B37'}}>Tarifs</Link></span></Nav.Link>
+                        <Nav.Link class="nav-links" href="#contact" ><span class="nav-links"  style={{color:'#BA9B37'}}>Contact</span></Nav.Link>
+                        <Nav.Link class="nav-links" ><span class="nav-links"><Link to="/about"  style={{color:'#BA9B37'}}>À propos</Link></span></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

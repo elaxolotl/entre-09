@@ -2,6 +2,7 @@ import React from "react";
 import { GoGoal } from "react-icons/go";
 import './About.css'
 import { IoIosArrowForward, IoMdSchool } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 
 function About1() {
@@ -14,7 +15,7 @@ function About1() {
                 <h4>Mes objectifs</h4>
                 <p>
                 entre09 s'engage à fournir des services de haute qualité, à apporter un accompagnement exceptionnel à nos clients et à assurer leur succès à long terme.</p>
-                <p id="link">en savoir plus sur nous<IoIosArrowForward /></p>
+                <Link to="/about" style={{color:'#454545'}}><p id="link">en savoir plus sur nous<IoIosArrowForward /></p></Link>
             </div>
         </div>
     )
@@ -47,7 +48,7 @@ export default function About() {
                     <About1 className="about1" />
                     <About2 className="about2" />
                 </div>
-                <div className="about-me-image"><img src="/public/about-me-img.png" />
+                <div className="about-me-image"><img src="/public/about-me-img.jpg" />
                 </div>
             </div>
         </div>
