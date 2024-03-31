@@ -49,6 +49,9 @@ footer{
         width: 15vh;
         height: auto;
     }
+    .link{
+        color: white;
+    }
     a{
         opacity: 0.7;
         cursor: pointer;

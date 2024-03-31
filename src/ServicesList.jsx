@@ -1,5 +1,16 @@
 const ServicesList = [
-    "formations","consulting", "assistance"
+    {
+        name: "formations",
+        link: "/training"
+    },
+    {
+        name: "consulting",
+        link: "/assistance"
+    },
+    {
+        name: "assistance",
+        link: "/consulting"
+    }
 ]
 
 export default ServicesList

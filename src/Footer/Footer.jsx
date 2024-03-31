@@ -3,6 +3,7 @@ import './Footer.css'
 import ServicesList from "../ServicesList";
 import { FaFacebook } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { Link } from 'react-router-dom';
 
 
 
@@ -31,10 +32,10 @@ function Content() {
             </div>
             <div>
                 <h5>nos services</h5>
-                {ServicesList.map(function (item, index) {
+                {ServicesList.map(function (item) {
                     return (
-                        <div key={index}>
-                            <a><p>{item}</p></a>
+                        <div key={item.index}>
+                            <Link className="link" to={item.link}><a><p>{item.name}</p></a></Link>
                         </div>
                     )
                 })}
