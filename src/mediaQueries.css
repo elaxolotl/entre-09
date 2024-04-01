@@ -1,0 +1,149 @@
+@media (max-width: 1250px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    #hero {
+        .hero-gradient {
+            margin-bottom: -20px;
+        }
+
+        .hero-description {
+            margin: 2vh 30vh;
+        }
+
+        #hero-card {
+            margin: 0vh 30vh;
+        }
+    }
+
+    #about {
+        .about-me {
+            margin: 0vh 20vh;
+
+            * img {
+                display: none;
+            }
+        }
+    }
+
+    .bottom {
+        gap: 90vh;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+    * {
+        overflow-x: hidden;
+    }
+
+    .me-auto {
+        margin-left: 0vh;
+    }
+
+    /*hero*/
+
+    #hero {
+        .hero-gradient {
+            margin-bottom: -20px;
+        }
+
+        .hero-description {
+            margin: 2vh 30vh;
+        }
+
+        #hero-card {
+            margin: 0vh 30vh;
+        }
+    }
+
+    /*about*/
+
+
+    #about {
+        .about-me {
+            margin: 0vh 20vh;
+
+            * img {
+                display: none;
+            }
+        }
+    }
+
+    /*services*/
+
+    #services {
+        margin: 5vh 10vh 0vh 10vh;
+    
+        .services-list {
+    
+            .service-card {
+                width: 150px;
+                .icon{
+                    font-size: 1rem;
+                    margin-bottom: 10vh;
+                }
+                h3 {
+                    font-size: 1.1rem;
+                }
+                p {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    /*footer*/
+
+    footer{
+        padding: 5vh 5vh 0vh 5vh;
+    }
+    
+    .newsletter{
+        justify-content: center;
+        align-items: center;
+        gap: 15vh;
+        padding-bottom: 5vh;
+        h3{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 0.75rem;
+        }
+        input{
+            width: 30vh;
+            font-size: 0.75rem;
+            margin-right: 10px;
+        }
+        button{
+            width: 10vh;
+            font-size: 0.75rem;
+        }
+    }
+    
+    .content{
+        gap: 10vh;
+        img{
+            width: 7vh;
+        }
+        h5{
+            font-size: 1.2rem;
+        }
+        p{
+            font-size: 0.75rem;
+        }
+    }
+    
+    .bottom{
+        gap: 65vh !important; 
+        padding-bottom: 1vh;
+        .icons{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 0.75rem;
+        }
+    }
+}

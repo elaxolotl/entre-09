@@ -14,7 +14,8 @@ export default function NavBar() {
     const hideDropdown = e => {
         setShow(false);
     }
-
+    ////
+    
     //navbar is transparent when it is on top, then becomes white when client scrolls//
 
     const [scrolled, setScrolled] = useState(true);
@@ -34,19 +35,21 @@ export default function NavBar() {
         };
     }, [scrolled]);
 
+    ////
+
     return (
         <Navbar
             expand="lg"
-            sticky="top"
+            fixed="top"
             className={scrolled ? 'bg-transparent shadow-none' : 'bg-white shadow'}
         >
             <Container>
                 <Navbar.Brand href="#hero">
                     <Link to="/"><img src="/logo.svg" width="40" height="40" alt="entre09" /></Link>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor:'black'}}/>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto" style={{ marginLeft: '37vh', gap: '5vh', alignItems: "center", padding: '0' }}>
+                    <Nav className="me-auto" style={{ gap: '5vh', alignItems: "center", padding: '0' }}>
                         <NavDropdown
                             class="nav-links"
                             title={

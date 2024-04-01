@@ -17,7 +17,7 @@ function Newsletter() {
             <div>
                 <form>
                     <input type="email" placeholder="votre adresse e-mail" />
-                    <button>Inscrivez-moi</button>
+                    <button>Inscription</button>
                 </form>
             </div>
         </div>

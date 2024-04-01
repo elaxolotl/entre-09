@@ -31,10 +31,10 @@ footer{
     button{
         border: none;
         border-radius: 50px;
-        background-color: white;
-        padding: 5px 20px;
+        padding: 5px 0px;
         color: #D4AF37;
         width: 15vh;
+        text-align: center;
     }
     button:hover{
         background-color: rgb(245, 240, 225);

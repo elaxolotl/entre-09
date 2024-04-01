@@ -13,6 +13,7 @@ import Consulting from './ConsultingPage/Consulting';
 import Tarifs from './TarifsPage/Tarifs';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AboutUs from './AboutPage/AboutUs';
+import './mediaQueries.css'
 
 function HeroAbout() {
   return (

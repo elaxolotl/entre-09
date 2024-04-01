@@ -20,7 +20,8 @@ export default function Hero() {
             <h1> À <FancyText
                 gradient={{ from: '#D4AF37', to: '#C25942', type: 'linear' }}
                 animate
-                animateDuration={1000}>
+                animateDuration={1000}
+                className='hero-gradient'>
                 Votre
             </FancyText> manière.</h1>
             <p className="hero-description">Des solutions sur mesure pour la croissance et la réussite de votre entreprise en Tunisie ou dans la zone euro
@@ -31,7 +32,7 @@ export default function Hero() {
                     <div>
                         <Link to="/training">
                             <span><FaChalkboardTeacher /><IoIosArrowForward /></span>
-                            <p>je cherche un formateur</p>
+                            <p className='hero-card-desc'>je cherche un formateur</p>
                         </Link>
                     </div>
                     <div>
