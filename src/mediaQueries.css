@@ -33,66 +33,62 @@
 
 }
 
-
 @media (max-width: 1000px) {
     * {
         overflow-x: hidden;
     }
-
-    .me-auto {
-        margin-left: 0vh;
-    }
-
     /*hero*/
 
     #hero {
+        padding-top: 0vh;
+        h1 {
+            font-size: 10vh;
+        }
+
         .hero-gradient {
             margin-bottom: -20px;
         }
-
-        .hero-description {
-            margin: 2vh 30vh;
+    
+        .hero-description{
+            margin: 2vh 20vh;
         }
-
-        #hero-card {
-            margin: 0vh 30vh;
-        }
-    }
-
-    /*about*/
-
-
-    #about {
-        .about-me {
+    
+        #hero-card{
             margin: 0vh 20vh;
-
-            * img {
-                display: none;
+            h2{
+                font-size: 5vh;
+            }
+            .card-subset{
+                flex-wrap: wrap ;
+                div{
+                    width: 200px;
+                }
             }
         }
     }
+    
+    /*about*/
 
+    #about{
+        padding-bottom: 10vh;
+        h1{
+            font-family: "Inria Serif", serif;
+            font-weight: 700;
+            font-size: 5vh;
+        }
+        .about-description{
+            margin: 0vh 20vh;
+        }
+        .about-me{
+            margin: 0vh 20vh;
+        }
+    }
+    
     /*services*/
 
     #services {
         margin: 5vh 10vh 0vh 10vh;
-    
-        .services-list {
-    
-            .service-card {
-                width: 150px;
-                .icon{
-                    font-size: 1rem;
-                    margin-bottom: 10vh;
-                }
-                h3 {
-                    font-size: 1.1rem;
-                }
-                p {
-                    display: none;
-                }
-            }
-        }
+        padding-bottom: 10vh;
     }
 
     /*footer*/
@@ -102,48 +98,34 @@
     }
     
     .newsletter{
-        justify-content: center;
-        align-items: center;
-        gap: 15vh;
         padding-bottom: 5vh;
         h3{
-            font-size: 1rem;
+            font-size: 1.25rem;
         }
         p{
             font-size: 0.75rem;
         }
         input{
-            width: 30vh;
-            font-size: 0.75rem;
+            padding: 5px 10px;
+            width: 20vh;
             margin-right: 10px;
+            font-size: 0.75rem;
         }
         button{
             width: 10vh;
+            text-align: center;
             font-size: 0.75rem;
         }
     }
     
     .content{
+        display: flex;
+        justify-content: flex-start;
         gap: 10vh;
-        img{
-            width: 7vh;
-        }
-        h5{
-            font-size: 1.2rem;
-        }
-        p{
-            font-size: 0.75rem;
-        }
     }
     
     .bottom{
-        gap: 65vh !important; 
+        gap: 50vh; 
         padding-bottom: 1vh;
-        .icons{
-            font-size: 1rem;
-        }
-        p{
-            font-size: 0.75rem;
-        }
     }
 }

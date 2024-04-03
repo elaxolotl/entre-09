@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
-import './Nav.css'
 import { Link } from 'react-router-dom';
 
 export default function NavBar() {
@@ -47,7 +46,7 @@ export default function NavBar() {
                 <Navbar.Brand href="#hero">
                     <Link to="/"><img src="/logo.svg" width="40" height="40" alt="entre09" /></Link>
                 </Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor:'black'}}/>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" style={{display:'block'}}/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto" style={{ gap: '5vh', alignItems: "center", padding: '0' }}>
                         <NavDropdown

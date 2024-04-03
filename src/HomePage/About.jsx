@@ -16,7 +16,7 @@ function About1() {
                 <p>
                 entre09 s'engage à fournir des services de haute qualité, à apporter un accompagnement exceptionnel à nos clients et à assurer leur succès à long terme.</p>
                 <Link to="/about" style={{color:'#454545'}}><p id="link">en savoir plus sur nous<IoIosArrowForward /></p></Link>
-            </div>
+            </div>  
         </div>
     )
 }
@@ -41,7 +41,7 @@ export default function About() {
     return (
         <div id="about">
             <h1>Qui suis je?</h1>
-            <p>entre09 est votre partenaire de confiance pour le développement et la croissance de votre entreprise
+            <p className="about-description">entre09 est votre partenaire de confiance pour le développement et la croissance de votre entreprise
             </p>
             <div className="about-me">
                 <div className="about-me-text">
