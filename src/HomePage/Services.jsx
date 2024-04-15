@@ -1,29 +1,33 @@
 import React from "react";
 import Card from '@mui/material/Card';
 import Container from '@mui/material/Container';
-import './Services.css'
 import { FaCalculator, FaTruck, FaBalanceScale, FaMoneyBill } from 'react-icons/fa';
+import CalculateIcon from '@mui/icons-material/Calculate';
+import ArticleIcon from '@mui/icons-material/Article';
+import BalanceIcon from '@mui/icons-material/Balance';
+import SavingsIcon from '@mui/icons-material/Savings';
+import './Services.css'
 
 const ServicesList = [
   {
     name: "Comptabilité",
     description: "Gérer les dossiers financiers, y compris la préparation des états financiers.",
-    icon: <FaCalculator />
+    icon: <CalculateIcon />
   },
   {
     name: "Logistique",
     description: "Solutions efficaces pour optimiser vos opérations administratives et relations avec l'administration tunisienne.",
-    icon: <FaTruck />
+    icon: <ArticleIcon />
   },
   {
     name: "Juridique",
     description: "Fournir un soutien juridique et des conseils sur divers aspects des opérations commerciales et de la conformité.",
-    icon: <FaBalanceScale />
+    icon: <BalanceIcon />
   },
   {
     name: "Financier",
     description: "Offrir des services de conseil financier et une assistance dans la gestion des investissements et des actifs.",
-    icon: <FaMoneyBill />
+    icon: <SavingsIcon />
   }
 ];
 export default function Services(){
