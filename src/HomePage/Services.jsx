@@ -1,4 +1,6 @@
 import React from "react";
+import Card from '@mui/material/Card';
+import Container from '@mui/material/Container';
 import './Services.css'
 import { FaCalculator, FaTruck, FaBalanceScale, FaMoneyBill } from 'react-icons/fa';
 
@@ -26,19 +28,19 @@ const ServicesList = [
 ];
 export default function Services(){
     return(
-        <div id="services">
+        <Container id="services">
             <h2>Nos services</h2>
             <div className="services-list">
             {ServicesList.map(function(item){
                 return(
-                    <div className="service-card">
+                    <Card className="service-card">
                         <span className="icon">{item.icon}</span>
                         <h3>{item.name}</h3>
                         <p>{item.description}</p>
-                    </div>
+                    </Card>
                 )
             })}
             </div>
-        </div>
+        </Container>
     )
 }

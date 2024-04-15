@@ -1,8 +1,7 @@
-import NavBar from './Nav/Nav'
-import 'bootstrap/dist/css/bootstrap.min.css';
+// React components
+import NavBar from './Nav/Nav';
 import Hero from './HomePage/Hero';
 import About from './HomePage/About';
-import './App.css'
 import Contact from './HomePage/Contact';
 import Clients from './HomePage/Clients';
 import Footer from './Footer/Footer';
@@ -11,9 +10,15 @@ import Trainings from './TrainingsPage/Trainings';
 import Assistance from './AssistancePage/Assistance';
 import Consulting from './ConsultingPage/Consulting';
 import Tarifs from './TarifsPage/Tarifs';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import AboutUs from './AboutPage/AboutUs';
-import './mediaQueries.css'
+// External libraries
+import 'bootstrap/dist/css/bootstrap.min.css';
+// React Router
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+// CSS files
+import './App.css';
+import './mediaQueries.css';
+
 
 function HeroAbout() {
   return (
