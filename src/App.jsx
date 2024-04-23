@@ -94,6 +94,7 @@ function App() {
   return (
     <BrowserRouter >
       <NavBar />
+      <div style={{height:'10vh'}}></div>
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/training" element={<TrainingPage />} />

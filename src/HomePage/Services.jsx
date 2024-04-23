@@ -1,7 +1,7 @@
 import React from "react";
 import Card from '@mui/material/Card';
 import Container from '@mui/material/Container';
-import { FaCalculator, FaTruck, FaBalanceScale, FaMoneyBill } from 'react-icons/fa';
+//icons
 import CalculateIcon from '@mui/icons-material/Calculate';
 import ArticleIcon from '@mui/icons-material/Article';
 import BalanceIcon from '@mui/icons-material/Balance';
