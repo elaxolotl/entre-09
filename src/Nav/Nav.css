@@ -2,6 +2,8 @@
 nav{
     font-family: "Inter", sans-serif;
     font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .nav-links{

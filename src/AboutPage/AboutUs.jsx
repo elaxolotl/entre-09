@@ -36,7 +36,8 @@ function Quote() {
   return (
     <div id="quote">
       <div>
-        <p><FaQuoteLeft className="icon" />
+      <FaQuoteLeft className="icon" />
+        <p>
           Notre entreprise « Entre 09 » travaille activement au développement du niveau d'activité économique en Tunisie
           en accordant une importance particulière à l'assistance juridique, comptable et fiscale. Celle-ci est considérée
           comme un élément essentiel pour accroître la valeur ajoutée des entreprises, startups et associations, en particulier
@@ -44,7 +45,7 @@ function Quote() {
           entre le droit à la réalisation d'un profit financier et l'engagement en faveur de nobles valeurs humaines.
           Par ailleurs, « Entre 09 » attache une grande importance à la création d'une relation constructive entre le Nord et le Sud
           de la méditerrané afin d'apporter une valeur ajoutée tant sur le plan matériel qu'humanitaire aux deux rives.
-        </p><FaQuoteRight className="icon" style={{marginLeft:'110vh', opacity:'0.7'}}/>
+        </p><FaQuoteRight className="icon" style={{marginLeft:'70vw', opacity:'0.7'}}/>
       </div>
       <div>
         <img src="/about-me-img-page.png" />

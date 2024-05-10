@@ -30,7 +30,7 @@ export default function Contact() {
                         <MDBCheckbox wrapperClass='d-flex justify-content-center' label='Envoyez-moi une copie' />
                     </MDBValidationItem>
 
-                    <MDBBtn type='submit' color='white' block className='my-4'>
+                    <MDBBtn type='submit' color="light" block className='my-4'>
                             Envoyez
                     </MDBBtn>
                 </MDBValidation>
