@@ -48,7 +48,7 @@ export default function About() {
                     <About1 className="about1" />
                     <About2 className="about2" />
                 </div>
-                <div className="about-me-image"><img src="/public/about-me-img.jpg" />
+                <div className="about-me-image"><img src="/about-me-img.jpg" />
                 </div>
             </div>
         </div>
